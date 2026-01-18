@@ -55,18 +55,19 @@ cd Image-generator-app
 cd server
 npm install
 ```
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-npm run dev
+PORT=5000,
+MONGO_URI=your_mongodb_connection_string,
+JWT_SECRET=your_jwt_secret,
+npm run dev,
 npm start
 
 
 ### Setup Frontend
+```bash
 cd client
 npm install
 npm run dev
-
+```
 ### Then open in Browser
 http://localhost:5173
 
