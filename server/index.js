@@ -7,7 +7,13 @@ import imageRouter from './routes/imageRoutes.js';
 
 const app = express();
 const PORT = process.env.GATE;
-app.use(cors());
+// CORS configuration to allow 'token' header
+app.use(cors({
+    origin: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'token', 'Authorization'],
+    credentials: true
+}));
 
 app.use(express.json());
 app.use('/api/user', userRouter);
