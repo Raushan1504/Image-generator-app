@@ -34,7 +34,7 @@ A full-stack **MERN Image Generator Application** that allows users to generate 
 ---
 
 ## 📁 Project Structure  
-
+```bash
 Image-generator-app/
 │
 ├── client/ # Frontend (React)
@@ -42,7 +42,7 @@ Image-generator-app/
 ├── server/ # Backend (Node + Express)
 │
 └── README.md
-
+```
 
 ---
 
