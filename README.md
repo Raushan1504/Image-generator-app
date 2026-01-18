@@ -50,7 +50,6 @@ Image-generator-app/
 
 ### 1️⃣ Clone the repository  
 
-```bash
 git clone https://github.com/Raushan1504/Image-generator-app.git
 cd Image-generator-app
 cd server
@@ -79,6 +78,7 @@ Variable	Description
 MONGO_URI	MongoDB Atlas connection URL
 JWT_SECRET	JWT secret key
 PORT	Backend port
+
 ## 📌 Important Notes
 
 Make sure MongoDB Atlas Network Access allows your IP
