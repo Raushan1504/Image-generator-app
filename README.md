@@ -49,12 +49,12 @@ Image-generator-app/
 ## ⚙️ Installation & Setup  
 
 ### 1️⃣ Clone the repository  
-
+```bash
 git clone https://github.com/Raushan1504/Image-generator-app.git
 cd Image-generator-app
 cd server
 npm install
-
+```
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
