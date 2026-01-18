@@ -1,0 +1,71 @@
+# 🖼️ Image Generator App  
+
+A full-stack **MERN Image Generator Application** that allows users to generate AI images using prompts. It includes user authentication, credit system, and secure backend APIs.
+
+---
+
+## 🚀 Features  
+
+- 🔐 User Authentication (JWT based)  
+- 🖼️ AI Image Generation using prompts  
+- 💳 Credit-based image generation system  
+- 📊 User Dashboard  
+- 🌐 MongoDB Atlas Database  
+- ⚡ Fast React frontend with Vite  
+- 🔒 Secure API routes with middleware  
+
+---
+
+## 🛠️ Tech Stack  
+
+### Frontend  
+
+- React (Vite)  
+- Axios  
+- CSS  
+
+### Backend  
+
+- Node.js  
+- Express.js  
+- MongoDB Atlas  
+- JWT Authentication  
+
+---
+
+## 📁 Project Structure  
+
+Image-generator-app/
+│
+├── client/ # Frontend (React)
+│
+├── server/ # Backend (Node + Express)
+│
+└── README.md
+
+
+---
+
+## ⚙️ Installation & Setup  
+
+### 1️⃣ Clone the repository  
+
+```bash
+git clone https://github.com/Raushan1504/Image-generator-app.git
+cd Image-generator-app
+cd server
+npm install
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+npm run dev
+npm start
+
+
+##Setup Frontend
+cd client
+npm install
+npm run dev
+
+##Then open in Browser
+http://localhost:5173
